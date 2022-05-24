@@ -1,0 +1,29 @@
+/* Loader */
+
+.loader {
+    width: 150px;
+    height: 150px;
+    border: 15px solid;
+    border-top-color: rgb(230, 62, 62);
+    border-bottom-color: rgb(90, 204, 90);
+    border-right-color: rgb(73, 52, 167);
+    border-left-color: rgb(240, 203, 41);
+    border-radius: 50%;
+
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

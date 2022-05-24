@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box !important;
+  scroll-behavior: smooth !important;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit !important;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0 !important;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul {
+  list-style: none !important;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+html,
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  font-family: 'Fira Sans', sans-serif !important;
+  color: var(--first-color) !important;
+  background: var(--first-color-alt) !important;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  height: auto;
+  /* margin-right: ; */
+  /* margin-left: ; */
+  padding: 0 15px;
+}
+
+.main {
+  overflow: hidden;
+}
+
+.section {
+  /* padding: ; */
+  /* margin: ; */
+}

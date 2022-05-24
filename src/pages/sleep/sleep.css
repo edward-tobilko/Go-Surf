@@ -1,0 +1,274 @@
+/* Sleep */
+
+.sleep {
+  position: relative;
+  padding-top: 500px;
+}
+
+.sleep__slider-icon {
+  position: relative;
+  top: -20px;
+  right: -32px;
+  z-index: 10;
+  opacity: 0.25;
+}
+
+.sleep-right__text {
+  display: none;
+}
+
+.active8 {
+  display: block;
+}
+
+.sleep__background-images {
+  position: absolute;
+  bottom: 0;
+  right: -20px;
+}
+
+.sleep__flower-small {
+  position: absolute;
+  bottom: -120px;
+  right: 0;
+  z-index: 100;
+}
+
+.sleep__flower-big {
+  position: absolute;
+  bottom: -500px;
+  right: 0;
+  z-index: 100;
+}
+
+/* SleepSlider */
+
+.sleep__slider {
+  position: relative;
+  background-image: url("./../../assets/hotel.png");
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  min-height: 780px;
+}
+
+.sleep__stars {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -145px;
+}
+
+.sleep__slider-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+
+  min-height: 200px;
+  width: 100%;
+}
+
+.sleep__slider-btn {
+  position: absolute;
+  bottom: -450px;
+  left: 40%;
+  z-index: 50;
+  cursor: pointer;
+}
+
+.sleep__slider-btn__img {
+  width: 293px;
+  height: 80px;
+}
+
+.sleep-travel__slider-info {
+  display: flex;
+  justify-content: space-around;
+
+  position: absolute;
+  bottom: -270px;
+  left: 125px;
+}
+
+.sleep__left-slider {
+  display: none;
+}
+
+.active9 {
+  display: block;
+
+  position: absolute;
+  bottom: 0 !important;
+}
+
+/* SleepNightsBtn and SleepGuestsBtn */
+
+.travel__slider-btns {
+  display: flex;
+  justify-content: flex-end;
+  cursor: pointer;
+  padding-right: 40px;
+}
+
+.sleep__slider-minus {
+  color: var(--second-color);
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.sleep__slider-plus {
+  color: var(--second-color);
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1440px) {
+}
+
+@media screen and (max-width: 1366px) {
+  .sleep__slider-btn {
+    bottom: -550px;
+    left: 40%;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .sleep__slider-btn__img {
+    width: 250px;
+    height: 60px;
+  }
+
+  .sleep__hammock {
+    width: 350px;
+  }
+
+  .sleep__flower-small {
+    width: 130px;
+    bottom: -80px;
+  }
+
+  .sleep__flower-big {
+    width: 180px;
+    bottom: -370px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sleep__slider-btn {
+    bottom: -450px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .sleep {
+    padding-top: 200px;
+  }
+
+  .suptitle-line {
+    letter-spacing: 2px;
+  }
+
+  .right__text-line {
+    letter-spacing: 3px;
+    font-size: 18px;
+    line-height: 0;
+    top: -15px;
+  }
+
+  .right__text-line::after {
+    width: 50px;
+    right: -60px;
+  }
+
+  .active9 {
+    bottom: 80px !important;
+  }
+
+  .sleep__hammock {
+    width: 250px;
+  }
+
+  .sleep__flower-small {
+    width: 79px;
+    bottom: -40px;
+  }
+
+  .sleep__flower-big {
+    width: 80px;
+    bottom: -160px;
+  }
+
+  .sleep__background-images {
+    bottom: 175px;
+  }
+
+  .sleep__slider-btn {
+    bottom: -200px;
+    left: 23%;
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sleep {
+    padding-top: 70px;
+  }
+  .sleep__background-images {
+    bottom: 290px;
+  }
+  .sleep__hammock {
+    width: 190px;
+  }
+  .sleep__slider-btn {
+    bottom: -20px;
+    left: 25%;
+  }
+  .sleep__slider-btn__img {
+    width: 160px;
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .sleep {
+    padding-top: 150px;
+  }
+  .sleep__slider-btn {
+    left: 22%;
+  }
+  .sleep__slider-btn__img {
+    width: 140px;
+    margin: 0 auto;
+    height: 50px;
+  }
+  .sleep__hammock {
+    width: 175px;
+  }
+  .sleep__flower-small {
+    width: 50px;
+    bottom: -20px;
+  }
+  .sleep__flower-big {
+    width: 60px;
+    bottom: -100px;
+  }
+  .sleep__stars {
+    right: -80px;
+  }
+  .right__text-line {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+  .right__text-line::after {
+    width: 30px;
+    right: -35px;
+  }
+}
